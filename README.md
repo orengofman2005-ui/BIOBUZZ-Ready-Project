@@ -1,7 +1,7 @@
 # 🐝 BIOBUZZ — פרויקט הכשרה מלא ל־FTC
 
 פרויקט Android Studio מוכן לפתיחה ולהרצה, שמלווה את קורס התכנות של BIOBUZZ ל־FIRST Tech Challenge.
-הפרויקט כולל את כל התשתית, 56 קובצי Java של מימושי השיעורים (ועוד 5 דוגמאות Autonomous של מדריך Pedro), דוגמאות הפעלה לכל שיעור ומפות שמקשרות בין השיעורים לקבצים.
+הפרויקט כולל את כל התשתית, 56 קובצי Java של מימושי השיעורים, דוגמאות הפעלה לכל שיעור ומפות שמקשרות בין השיעורים לקבצים.
 
 ![FTC SDK](https://img.shields.io/badge/FTC%20SDK-11.0.0-orange)
 ![Pedro Pathing](https://img.shields.io/badge/Pedro%20Pathing-2.1.2-blue)
@@ -10,8 +10,6 @@
 ![Gradle](https://img.shields.io/badge/Gradle-8.9-02303A)
 
 > 📘 **מתחילים כאן:** מדריך הפתיחה וההרצה המלא נמצא ב־[START-HERE-HE.txt](START-HERE-HE.txt).
->
-> 🧭 **חדש: [מדריך Autonomous עם Pedro Pathing](PEDRO-AUTONOMOUS-GUIDE-HE.md)** — צירים וזוויות, פירוק האוטונומי של שיעור 10, חמש דוגמאות מלאות, Workflow ופתרון תקלות.
 
 ---
 
@@ -76,7 +74,6 @@ teamcode/
 │   └── TeleOp/      הפעלות השיעורים
 ├── SubSystems/      מנוע, מאקאנום, מעלית, סרבו, Intake, Shooter, Limelight
 └── training/        קוד ייעודי להכשרה (חיישנים, פקודות, Limelight, אוטונומי)
-    └── guide/       חמש דוגמאות ה־Autonomous של מדריך Pedro
 ```
 
 ## 📄 קבצים חשובים
@@ -84,7 +81,6 @@ teamcode/
 | קובץ | תוכן |
 |------|------|
 | [START-HERE-HE.txt](START-HERE-HE.txt) | מדריך פתיחה, בנייה והרצה ראשונה |
-| [PEDRO-AUTONOMOUS-GUIDE-HE.md](PEDRO-AUTONOMOUS-GUIDE-HE.md) | מדריך Autonomous עם Pedro Pathing + 5 דוגמאות |
 | [STUDENT-WORKBOOK-HE.txt](STUDENT-WORKBOOK-HE.txt) | סדר עבודה ויעדי תרגול |
 | [LESSON-MAP.csv](LESSON-MAP.csv) | שיעור ← קבצים, הפעלה, חומרה ותרגיל |
 | [CLASS-INVENTORY.csv](CLASS-INVENTORY.csv) | כל מחלקות ה־Java ותפקידן |
