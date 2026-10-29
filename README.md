@@ -10,6 +10,8 @@
 ![Gradle](https://img.shields.io/badge/Gradle-8.9-02303A)
 
 > 📘 **מתחילים כאן:** מדריך הפתיחה וההרצה המלא נמצא ב־[START-HERE-HE.txt](START-HERE-HE.txt).
+>
+> 🔧 **[איך בונים Subsystem ומחברים אותו לרובוט](SUBSYSTEM-GUIDE-HE.md)** — מדריך קצר, מהקובץ הריק ועד מנגנון שזז בלחיצת כפתור.
 
 ---
 
