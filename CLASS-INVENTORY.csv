@@ -1,0 +1,57 @@
+﻿קובץ Java,package,מחלקה ראשית,תפקיד
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Commands/IntakeCommandGroup.java,org.firstinspires.ftc.teamcode.Commands,IntakeCommandGroup,הרכבת פעולות הזנה ועצירה
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Commands/ShootCommandGroup.java,org.firstinspires.ftc.teamcode.Commands,ShootCommandGroup,הרכבת פעולות מערכת ירי
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Commands/TimedFeedGroup.java,org.firstinspires.ftc.teamcode.Commands,TimedFeedGroup,קבוצת פקודות הזנה עם מגבלת זמן ועצירה
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleAnalog.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleAnalog,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleAnalog
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleAnalogEncoder.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleAnalogEncoder,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleAnalogEncoder
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleCrServo.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleCrServo,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleCrServo
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleDigital.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleDigital,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleDigital
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleEncoder.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleEncoder,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleEncoder
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleMotor.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleMotor,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleMotor
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleRevBulkData.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleRevBulkData,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleRevBulkData
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleRevHub.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleRevHub,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleRevHub
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/devices/CuttleServo.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.devices,CuttleServo,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — CuttleServo
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/utils/Direction.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.utils,Direction,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — Direction
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/utils/FTCTimer.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.utils,FTCTimer,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — FTCTimer
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/utils/MathUtils.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.utils,MathUtils,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — MathUtils
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/CuttlefishFTCBridge/src/utils/MotorInterlacer.java,org.firstinspires.ftc.teamcode.Libraries.CuttlefishFTCBridge.src.utils,MotorInterlacer,מתאם חומרה ותזמון מספריית CuttlefishFTCBridge — MotorInterlacer
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/MMLib/MMOpMode.java,org.firstinspires.ftc.teamcode.Libraries.MMLib,MMOpMode,"מחזור החיים: אתחול, קריאת חיישנים, scheduler, עצירה וניקוי"
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/MMLib/MMRobot.java,org.firstinspires.ftc.teamcode.Libraries.MMLib,MMRobot,"יצירת מופע הרובוט, בחירת מצב שיעור וגישה למערכות"
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/MMLib/MMSystems.java,org.firstinspires.ftc.teamcode.Libraries.MMLib,MMSystems,יצירה וניקוי של החומרה הנדרשת למצב שנבחר
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/MMLib/Utils/AllianceColor.java,org.firstinspires.ftc.teamcode.Libraries.MMLib.Utils,AllianceColor,צבע הברית
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/MMLib/Utils/OpModeType.java,org.firstinspires.ftc.teamcode.Libraries.MMLib.Utils,OpModeType,סוג ההפעלה: טלאופ או אוטונומי
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/MMLib/Utils/mathUtils.java,org.firstinspires.ftc.teamcode.Libraries.MMLib.Utils,mathUtils,פונקציות עזר מתמטיות
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/pedroPathing/Constants.java,org.firstinspires.ftc.teamcode.Libraries.pedroPathing,Constants,"הגדרות Follower, מנועים ו־localizer"
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/pedroPathing/Drawing.java,org.firstinspires.ftc.teamcode.Libraries.pedroPathing,Drawing,ציור נתוני מסלול ב־Dashboard
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/pedroPathing/FollowPathCommand.java,org.firstinspires.ftc.teamcode.Libraries.pedroPathing,FollowPathCommand,פקודת scheduler למעקב מסלול וביטולו
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Libraries/pedroPathing/Tuning.java,org.firstinspires.ftc.teamcode.Libraries.pedroPathing,Tuning,כלי כיול Pedro 2
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/Auto/BasicAuto.java,org.firstinspires.ftc.teamcode.OpMode.Auto,BasicAuto,תזמון מסלול פעם אחת לאחר START; מושבת עד כיול
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/TeleOp/CommandGroupsLessonTeleOp.java,org.firstinspires.ftc.teamcode.OpMode.TeleOp,CommandGroupsLessonTeleOp,מיפוי A לקבוצת פקודות הזנה
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/TeleOp/ContinuousServoTeleOp.java,org.firstinspires.ftc.teamcode.OpMode.TeleOp,ContinuousServoTeleOp,הפעלת CRServo
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/TeleOp/ElevatorTeleOp.java,org.firstinspires.ftc.teamcode.OpMode.TeleOp,ElevatorTeleOp,הפעלת שיעור מעלית
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/TeleOp/LimelightTestOpMode.java,org.firstinspires.ftc.teamcode.OpMode.TeleOp,LimelightTestOpMode,אבחון מצלמת Limelight
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/TeleOp/MecanumTeleOp.java,org.firstinspires.ftc.teamcode.OpMode.TeleOp,MecanumTeleOp,הפעלת שיעור מאקאנום
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/TeleOp/ServoTeleOp.java,org.firstinspires.ftc.teamcode.OpMode.TeleOp,ServoTeleOp,הפעלת סרבו מיקומי
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/TeleOp/TestOpMode.java,org.firstinspires.ftc.teamcode.OpMode.TeleOp,TestOpMode,הפעלת העונה המקורית לעיון; מושבתת בעותק הלימודי
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/OpMode/TeleOp/manualDrive.java,org.firstinspires.ftc.teamcode.OpMode.TeleOp,manualDrive,TeleOp למנוע יחיד
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/DriveTrain.java,org.firstinspires.ftc.teamcode.SubSystems,DriveTrain,שכבת הנעת העונה וחיבור ל־Pedro באוטונומי
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/ElevatorSubsystem.java,org.firstinspires.ftc.teamcode.SubSystems,ElevatorSubsystem,"מצבי מעלית, homing, גבולות ובקרת גובה"
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/ElevatorTuning.java,org.firstinspires.ftc.teamcode.SubSystems,ElevatorTuning,"הגדרות גובה, מגבלות ומקדמי בקרת המעלית"
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/IntakeSubsystem.java,org.firstinspires.ftc.teamcode.SubSystems,IntakeSubsystem,מנוע הקליטה
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/LiftPid.java,org.firstinspires.ftc.teamcode.SubSystems,LiftPid,חישוב בקר PID למעלית
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/Limelight.java,org.firstinspires.ftc.teamcode.SubSystems,Limelight,עטיפת מצלמת העונה
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/MecanumSubsystem.java,org.firstinspires.ftc.teamcode.SubSystems,MecanumSubsystem,חישוב ונרמול ארבע עוצמות מאקאנום
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/ServoSubsystem.java,org.firstinspires.ftc.teamcode.SubSystems,ServoSubsystem,ניהול יעד ומגבלות סרבו מיקומי
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/ServoTuning.java,org.firstinspires.ftc.teamcode.SubSystems,ServoTuning,"יעדים, טווח ומהירות שינוי סרבו"
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/ShooterSubsystem.java,org.firstinspires.ftc.teamcode.SubSystems,ShooterSubsystem,מנוע הירי
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/SingleMotorSubsystem.java,org.firstinspires.ftc.teamcode.SubSystems,SingleMotorSubsystem,שליטה במנוע יחיד ופקודת ג׳ויסטיק
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/SubSystems/TransferSubsystem.java,org.firstinspires.ftc.teamcode.SubSystems,TransferSubsystem,מנוע ההעברה
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/auto/DemoPathFactory.java,org.firstinspires.ftc.teamcode.training.auto,DemoPathFactory,יצירת מסלול דוגמה קצר ב־Pedro 2
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/auto/VisionFreshnessGate.java,org.firstinspires.ftc.teamcode.training.auto,VisionFreshnessGate,בדיקת טריות מדידות ראייה
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/commands/ReachSensorCommand.java,org.firstinspires.ftc.teamcode.training.commands,ReachSensorCommand,"פקודה עם תנאי חיישן, זמן וביטול"
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/debug/ControlMath.java,org.firstinspires.ftc.teamcode.training.debug,ControlMath,פעולות חישוב ניתנות לבדיקה
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/flowers/FlowerScoring.java,org.firstinspires.ftc.teamcode.training.flowers,FlowerScoring,חישוב עזר לתרגיל הפרחים
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/limelight/AimMath.java,org.firstinspires.ftc.teamcode.training.limelight,AimMath,חישוב תיקון כיוון ומעקב אחר התקדמות פריימים
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/limelight/LimelightAimPreview.java,org.firstinspires.ftc.teamcode.training.limelight,LimelightAimPreview,קריאת מצלמה והצעת סיבוב ללא פלט למנועים
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/sensors/SensorDiagnostics.java,org.firstinspires.ftc.teamcode.training.sensors,SensorDiagnostics,מדידות אנקודר וחיישן ב־telemetry
+TeamCode/src/main/java/org/firstinspires/ftc/teamcode/training/sensors/StableBoolean.java,org.firstinspires.ftc.teamcode.training.sensors,StableBoolean,סינון שינויי חיישן לפי יציבות בזמן

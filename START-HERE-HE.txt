@@ -1,0 +1,88 @@
+BIOBUZZ — פרויקט Android Studio מלא ללמידה
+עודכן: 27.10.2026
+
+מה מקבלים
+==========
+סגנון ההפעלה אחיד עם Biobuzz: MMRobot.getInstance().<subsystem>.<command>().
+בשיעורי ברירת מחדל קוראים setDefaultCommand על המערכת דרך MMRobot.
+
+פרויקט FTC מלא עם FtcRobotController, TeamCode, MeepMeepTesting ו־Gradle Wrapper.
+כל 56 קובצי Java של מימוש ההכשרה והתשתית נמצאים ב־TeamCode/src/main/java.
+107 עותקי קוד Java מחומרי ההכשרה תואמים לקבצים בפרויקט; דוגמאות חוזרות מופיעות בו פעם אחת.
+קטעים רעיוניים במצגות אינם כולם מחלקות עצמאיות. כאן נמצאים המימושים השלמים להרצה.
+זהו עותק לימודי נפרד; הוא אינו משנה את פרויקט הרובוט המקורי.
+
+הגרסאות הקבועות
+===============
+Pedro FTC/core 2.1.2 | SolversLib core SNAPSHOT-7cdcc66 | FTC SDK 11.0.0
+Gradle Wrapper 8.9 | Android Gradle Plugin 8.7.0 | Gradle JVM: Java 21.
+אין לשדרג את הספריות אוטומטית במהלך הלמידה: חומרי הקורס מתייחסים לגרסאות האלה.
+
+פתיחה ובנייה
+============
+1. מחלצים את כל ה־ZIP לתיקייה. אין לפתוח או לערוך קבצים מתוך ה־ZIP.
+2. Android Studio > Open > בוחרים BIOBUZZ-Ready-Project, שבה נמצא settings.gradle.
+3. Settings > Build, Execution, Deployment > Build Tools > Gradle:
+   בוחרים Gradle JDK של Java 21. אם אינו מותקן משתמשים ב־Download JDK ובוחרים 21.
+   אין לבחור Java 25 עבור Gradle 8.9 בפרויקט הזה.
+4. מאשרים Gradle Sync ומגדירים Android SDK אם Android Studio מבקש.
+   לפתיחה ולבנייה ראשונה נדרש אינטרנט להורדת כלי הבנייה והספריות.
+   האתר וחומרי הקורס מקומיים; ה־ZIP אינו כולל מטמון SDK או מטמון ספריות.
+5. בוחרים TeamCode בתצורת ההרצה. Build > Make Project.
+   אפשר גם להריץ Terminal מתוך שורש הפרויקט:
+   macOS/Linux: sh ./gradlew :TeamCode:assembleDebug :TeamCode:testDebugUnitTest
+   Windows: gradlew.bat :TeamCode:assembleDebug :TeamCode:testDebugUnitTest
+6. קובצי הקוד: TeamCode > src > main > java > org.firstinspires.ftc.teamcode.
+
+הרצה ראשונה: שיעור מנוע יחיד
+===========================
+1. ב־Driver Station יוצרים ובוחרים Robot Configuration עם מנוע בשם testMotor.
+2. מחברים את המחשב לרשת ה־Control Hub ובוחרים את הבקר כמכשיר ב־Android Studio.
+   אם משתמשים ב־ADB דרך Wi-Fi: adb connect <CONTROL_HUB_IP>:5555
+   יש להחליף את כתובת ה־IP בכתובת הבקר בפועל; ADB נדרש להיות מופעל בבקר.
+3. בוחרים TeamCode ולוחצים Run כדי להתקין את Robot Controller.
+4. ב־Driver Station בוחרים TeleOp בשם Single Motor, ואז INIT ו־START.
+5. סטיק שמאלי למעלה/למטה מסובב את המנוע; באמצע הוא עוצר. STOP מסיים את התוכנית.
+6. ב־telemetry רואים את שם המנוע ואת העוצמה.
+
+שאר ההפעלות
+============
+Mecanum Lesson: ארבעה מנועים FL, FR, BL, BR בלבד; אין צורך ב־Pinpoint.
+  הנהיגה יחסית לרובוט באמצעות MMRobot.getInstance().mecanumSubsystem.joystickCommand().
+  שני הסטיקים שולטים בתנועה ובסיבוב לפי חזית הרובוט, ללא חיישן כיוון.
+Elevator PID Lesson: מנוע lift וחיישני מגע liftBottom, liftTop.
+  X מוחזק: איפוס תחתון; B: ביטול; RB + חץ מעלה/מטה: תנועה ידנית.
+  A: גובה אפס; Y: HIGH_TICKS; חץ מעלה: MID_TICKS.
+  ב־ElevatorTuning מקדמי PID והגבהים מתחילים באפס. יש לכייל אותם למעלית בפועל.
+Positional Servo Lesson: Servo בשם claw. A פתיחה, B סגירה, X מרכז.
+  RB + סטיק שמאלי משנה יעד בהדרגה. בהתחלה פתיחה וסגירה שתיהן 0.50.
+  ServoTuning מגביל ניסוי ל־0.45–0.55 עד להתאמת הטווח והמנגנון בפועל.
+Continuous Servo Lesson: CRServo בשם roller; סטיק שמאלי שולט בכיוון ובעוצמה.
+Command Groups Lesson: מנועים intake ו־transfer; A הזנה עד שנייה, שחרור A עוצר.
+Training Sensor Diagnostics: מנוע intake וחיישן liftBottom; תצוגת מדידות, ללא הנעה.
+Limelight Aim Preview: מצלמה בשם limelight; מגדירים PIPELINE ו־TARGET_ID בקוד.
+  מציג נתוני זיהוי והצעת סיבוב בלבד. אינו מניע את הרובוט.
+Limelight 3A Test: אבחון המצלמה המקורי.
+Training Short Line: BasicAuto; מסומן @Disabled עד כיול Pedro והמיקום ההתחלתי.
+  זו דוגמת מסלול קצר של 12 אינץ׳, לא אוטונומי מוכן לתחרות.
+TestOpMode המקורי שמור לעיון ומסומן @Disabled משום שהוא מניח מערכות נוספות.
+
+מגדירים רק את החומרה של השיעור שבחרתם. מצבי singleMotor, mecanumOnly,
+elevatorOnly, servoOnly ו־feedOnly ב־MMRobot הם הרחבות לימודיות של הקורס.
+שמות ההתקנים חייבים להיות זהים בקוד וב־Robot Configuration, כולל אותיות גדולות.
+כיווני מנועים, סוגי מנועים וחיישנים, גבהי מעלית, טווחי סרבו ו־PID תלויים ברובוט שלכם.
+
+איך מוצאים כל קובץ
+=================
+LESSON-MAP.csv — שיעור, קבצים, הפעלה, חומרה ותרגיל לבנייה עצמאית.
+CLASS-INVENTORY.csv — כל קובצי Java, החבילות, המחלקות ותפקידיהן.
+STUDENT-WORKBOOK-HE.txt — סדר עבודה ויעדי תרגול לאחר צפייה והרצת הדוגמה.
+SOURCE-COVERAGE.csv — התאמה בין קובצי Java בחומרי השיעורים לפרויקט הזה.
+PROJECT-MANIFEST.json — חתימות SHA-256 של קבצי הקוד לבדיקת שלמות ההעברה.
+FTC-SDK-README.md — תיעוד ספק ה־FTC SDK.
+
+אימות
+=====
+הפרויקט נבנה במחשב עם Java 21; קיימות 11 בדיקות יחידה לשליטה, לוגיקה ושילוב.
+תוצר הבנייה: TeamCode/build/outputs/apk/debug/TeamCode-debug.apk.
+לא בוצעה בדיקת חומרה פיזית. קוד המעלית, הסרבו ו־Pedro דורש את הכיול שתואר לעיל.
